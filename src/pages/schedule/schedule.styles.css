@@ -1,0 +1,13 @@
+.main-page{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}

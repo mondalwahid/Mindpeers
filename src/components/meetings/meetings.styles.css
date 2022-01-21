@@ -1,0 +1,25 @@
+.meetings-container{
+    width: 650px;
+    height: 380px;
+    padding-top: 30px;
+    margin-left: 65px;
+    margin-top: 0;
+}
+
+.search-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.meeting-img{
+    margin-left: 40px;
+    width: 32px;
+    height: 33px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.meetings-container h3{
+    cursor: pointer;
+}

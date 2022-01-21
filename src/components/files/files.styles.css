@@ -1,0 +1,28 @@
+.file-container{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.header{
+        display: flex;
+        align-items: center;
+}
+.file-para{
+    width: 560px;
+    display: flex;
+    height: 40px;
+}
+
+.para{
+    width: 515px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+span{
+    width: 8px;
+}

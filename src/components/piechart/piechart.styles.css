@@ -1,0 +1,28 @@
+.outer-container{
+    width: 380px;
+    height: 262px;
+    background-color: whitesmoke;
+    margin-left: 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 415px;
+}
+
+.topics{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie-icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topics h5{
+    padding-left: 20px;
+    font-size: 15px;
+}

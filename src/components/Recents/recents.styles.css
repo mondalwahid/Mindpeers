@@ -1,0 +1,29 @@
+.recent-container{
+    /* width: 400px; */
+    height: 380px;
+}
+
+.toggle-buttons{
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(102, 100, 100);
+}
+
+.toggle-buttons:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.toggle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header{
+    margin-left: 20px;
+    cursor: pointer;
+}

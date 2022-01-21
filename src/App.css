@@ -7,11 +7,169 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 700px) {
+  .sidebarMenu{
+    display: none;
   }
+  .main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+  }
+  .recent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .file-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+  }
+.files-container {
+
+    background-color: white;
+    width: 350px;
+    height: 45px;
+    border-radius: 11px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: solid black 1px;
+    padding: 5px 0 5px 0;
+    position: relative;
+    top: -115%;
 }
+  .para{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .file-para {
+    width: 350px;
+    display: flex;
+    height: 40px;
+}
+.files-icon {
+    margin-left: -100%;
+    width: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 0;
+    position: relative;
+    bottom: 28px;
+    display: none;
+
+}
+.item-container {
+    background-color: white;
+    width: 80%;
+    height: 65px;
+    border-radius: 11px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 3px 5px 0px rgb(107 106 106 / 75%);
+    -webkit-box-shadow: -1px 3px 5px 0px rgb(107 106 106 / 75%);
+    -moz-box-shadow: -1px 3px 5px 0px rgba(107,106,106,0.75);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.icon-container {
+    background-color: rgb(255, 224, 228);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 7px;
+    display: none;
+}
+.meetings-container {
+    width: 55%;
+    height: auto;
+    margin-top: 0;
+    position: relative;
+    top: 95%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.meetings-container h3 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dates-container {
+    background-color: rgb(247, 238, 240);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.query{
+  background-color: rgb(247, 238, 240); 
+}
+.query-2{
+  background-color: rgb(250, 209, 209);
+}
+.search-profile {
+    display: none;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    top: -77%;
+    width: 60%;
+    left: 50%;
+}
+.meeting-img {
+    margin-left: 10px;
+    width: 32px;
+    height: 29px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main-header {
+    margin-left: -40%;
+    cursor: pointer;
+}
+.outer-container{
+  display: none;
+}
+.main-container {
+    width: 330px;
+    position: relative;
+    bottom: 282px;
+}
+.more-icon{
+  display: none;
+}
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center {
+    justify-content: space-around !important;
+}
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +193,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  display: flex;
+}
+
+.sub-container{
+  margin-left: 50px;
+  height: 100vh;
+  width: 100%;
 }

@@ -1,0 +1,35 @@
+.main-container{
+    width: 450px;
+}
+
+
+.project-header{
+    margin-left: 15px;
+    width: 383px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 55px;
+}
+
+
+
+.more-icon{
+    width: 240px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    color: rgb(87, 86, 86);
+}
+
+.piechart-icon{
+    width: 100px;
+    height: 220px;
+}
+
+.piechart{
+    display: flex;
+
+}

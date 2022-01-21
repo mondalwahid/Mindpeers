@@ -1,0 +1,64 @@
+.dates-container{
+    background-color: rgb(247, 238, 240);
+    width: 560px;
+    height: 280px;
+    display: flex;
+    border-radius: 15px;
+
+}
+
+.date{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: rgb(250, 209, 209);
+}
+
+
+p{
+    margin: 0;
+}
+
+.date-para{
+    margin: 0;
+}
+
+.calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.calendar:hover{
+    border: 1px solid black;
+    border-radius: 17px;
+    padding: 20px 10 20 10;
+    background-color: rgb(247, 238, 240);
+}
+
+.calendar:hover .date{
+    background-color: rgb(247, 238, 240);
+}
+
+.first-para{
+    padding-top: 10px;
+}
+
+.other-paras{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-icon{
+    color: grey;
+}
